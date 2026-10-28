@@ -21,7 +21,7 @@ const resume = {
       date: "2026 - 現在",
       title: "後端工程師",
       organization: "程式驅動協會-AI新秀計畫",
-      description: "協作開發網站API與資料庫設計，並改善使用體驗；成果數據請補入實際提升比例或完成項目數。",
+      description: "協作開發網站API與資料庫設計，並改善使用體驗；",
     }
   ],
   projects: [
@@ -188,19 +188,46 @@ function EntryList({ entries }) {
 }
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
+
+  React.useEffect(() => {
+    document.documentElement.dataset.theme = isDarkMode ? "dark" : "light";
+  }, [isDarkMode]);
+
   return (
     <div className="page-shell">
       <header className="site-header">
         <a className="brand" href="#top" aria-label={`${resume.name}首頁`}>
-          {resume.name}
+          個人履歷
         </a>
-        <nav className="site-nav" aria-label="主要導覽">
-          <a href="#about">關於</a>
-          <a href="#skills">技能</a>
-          <a href="#projects">作品</a>
-          <a href="#experience">經歷</a>
-          <a href="#education">學歷</a>
-        </nav>
+        <div className="header-tools">
+          <nav className="site-nav" aria-label="主要導覽">
+            <a href="#about">關於</a>
+            <a href="#skills">技能</a>
+            <a href="#projects">作品</a>
+            <a href="#experience">經歷</a>
+            <a href="#education">學歷</a>
+          </nav>
+          <div className="utility-actions">
+            <button
+              className="utility-button theme-toggle"
+              type="button"
+              aria-pressed={isDarkMode}
+              aria-label={isDarkMode ? "切換淺色模式" : "切換深色模式"}
+              title={isDarkMode ? "切換淺色模式" : "切換深色模式"}
+              onClick={() => setIsDarkMode((currentMode) => !currentMode)}
+            >
+              <span aria-hidden="true">{isDarkMode ? "☀" : "☾"}</span>
+            </button>
+            <button
+              className="utility-button"
+              type="button"
+              onClick={() => window.print()}
+            >
+              下載 PDF 履歷
+            </button>
+          </div>
+        </div>
       </header>
 
       <main className="content" id="top">

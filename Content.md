@@ -42,3 +42,13 @@
 	* GitHub Actions
 	* Networking Fundamentals
 	* Server Deployment
+
+### Project
+
+
+### Experience
+
+### Education
+* 2021 — 2026
+	* 經濟學系 / 資訊工程學系・學士
+	* 國立中正大學
