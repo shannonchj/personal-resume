@@ -95,7 +95,7 @@ function EntryList({ entries }) {
 }
 
 function App({ resume }) {
-  const [isDarkMode, setIsDarkMode] = React.useState(false);
+  const [isDarkMode, setIsDarkMode] = React.useState(true);
 
   React.useEffect(() => {
     document.documentElement.dataset.theme = isDarkMode ? "dark" : "light";
