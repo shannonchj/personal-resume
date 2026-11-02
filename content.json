@@ -1,0 +1,139 @@
+{
+  "profile": {
+    "name": "陳宣儒 Shannon",
+    "title": "Computer Science Student / Aspiring Software Engineer",
+    "location": "台灣・台北",
+    "introduction": "經濟與資訊工程雙學士，專注於分散式系統、資料庫架構與後端 API 開發。具備建立高可用性關聯式資料庫（PostgreSQL/MySQL）及端到端 ETL 資料管線的實務專案經驗。",
+    "tags": [
+      "AI & Machine Learning",
+      "Backend Development",
+      "Data Analytics"
+    ]
+  },
+  "about": {
+    "description": "熱衷於將複雜資料轉換為高價值產出，具備跨領域溝通與快速落地解決方案的能力。期許成為兼具後端工程深度與商業敏銳度的 FDE 或資料工程師，深入業務前線快速交付高可用、可擴展的資料與系統解決方案，為企業創造可量化的業務價值"
+  },
+  "links": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/shannonchj"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/shannonchj/"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:shannonchj@gmail.com"
+    }
+  ],
+  "skills": [
+    {
+      "category": "後端",
+      "items": [
+        "Python",
+        "Node.js",
+        "FastAPI",
+        "Data Structures & Algorithms"
+      ]
+    },
+    {
+      "category": "資料庫",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "Database Design",
+        "ER Modeling",
+        "Data Pipeline"
+      ]
+    },
+    {
+      "category": "前端",
+      "items": [
+        "HTML/CSS",
+        "React",
+        "JavaScript",
+        "RWD"
+      ]
+    },
+    {
+      "category": "AI協作與自動化",
+      "items": [
+        "AI 工作流自動化",
+        "AI 代理協作",
+        "n8n",
+        "GitHub Copilot",
+        "ChatGPT"
+      ]
+    },
+    {
+      "category": "開發工具協作",
+      "items": [
+        "Git",
+        "GitHub",
+        "Figma",
+        "Postman"
+      ]
+    },
+    {
+      "category": "雲端部屬與基礎設施",
+      "items": [
+        "Linux",
+        "Windows / MacOS",
+        "Docker",
+        "GitHub Actions",
+        "Networking Fundamentals",
+        "Server Deployment"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "基於時間選擇性的腦波特徵擷取於情緒識別之研究 Time-selective EEG feature extraction for emotion recognition",
+      "category": "Research Project",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "EEG",
+        "SVM"
+      ],
+      "overview": "探討EEG情緒辨識的時間選擇性問題，在利用10秒局部試驗切片降低特徵冗餘的同時媲美甚至超越全時段分類準確度，並透過跨受試者實驗評估不同時間窗口與特徵組合的分類效能",
+      "role": "核心研究成員 | 負責訊號前處理pipeline、特徵提取、時序分段實作、模型訓練與交叉驗證",
+      "preview": "notes",
+      "links": [
+        {
+          "label": "論文",
+          "href": "https://digital-library.theiet.org/doi/abs/10.1049/icp.2026.1973"
+        }
+      ]
+    },
+    {
+      "title": "來點送 Call Deliver",
+      "category": "Software Development",
+      "skills": [
+        "Python",
+        "PostgreSQL",
+        "REST API",
+        "uv",
+        "Docker"
+      ],
+      "overview": "為解決外送平台抽成過高與團體訂餐統計繁瑣的痛點，設計並推動「店內價、不抽成」的非營利平台。透過團體預訂與階梯優惠，協助店家降低成本、消費者享有更實惠餐點。整體模式採開源維運，結合學員實作與在地推廣，打造可持續且具公益性的餐飲解決方案。",
+      "role": "後端開發成員 | API開發 資料庫設計 系統設計",
+      "preview": "portfolio",
+      "links": [
+        {
+          "label": "GitHub 待補",
+          "href": ""
+        }
+      ]
+    }
+  ],
+  "experience": [],
+  "education": [
+    {
+      "date": "2021 — 2026",
+      "title": "經濟學系 / 資訊工程學系・學士",
+      "organization": "國立中正大學"
+    }
+  ]
+}
